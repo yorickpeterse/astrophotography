@@ -42,3 +42,9 @@ find lights -name 'r_pp_light_[0-9]*.fit' -delete
 
 info 'Removing sequence files'
 find . -name '*.seq' -delete
+
+info 'Removing intermediate FIT files'
+
+for dir in $required
+    find $dir -name '*.fit' -delete
+end
