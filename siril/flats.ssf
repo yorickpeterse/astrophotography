@@ -1,0 +1,4 @@
+cd flats
+convertraw flat_
+preprocess flat_ -bias=../biases/bias_stacked
+stack pp_flat_ rej 3 3 -norm=mul
