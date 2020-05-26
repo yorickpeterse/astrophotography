@@ -1,4 +1,0 @@
-cd biases
-setcpu 8
-convertraw bias_
-stack bias_ rej 3 3 -nonorm

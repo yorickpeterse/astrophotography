@@ -1,4 +1,1 @@
-cd darks
-setcpu 8
-convertraw dark_
-stack dark_ rej 3 3 -nonorm
+stack dark_ rej 4 4 -nonorm -out=stacked.fits

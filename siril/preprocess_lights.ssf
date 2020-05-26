@@ -1,5 +1,0 @@
-cd lights
-setcpu 8
-convertraw light_
-preprocess light_ -dark=../darks/dark_stacked -flat=../flats/pp_flat_stacked -cfa -equalize_cfa -debayer -stretch
-register pp_light_

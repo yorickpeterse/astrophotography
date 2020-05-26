@@ -1,5 +1,1 @@
-cd flats
-setcpu 8
-convertraw flat_
-preprocess flat_ -bias=../biases/bias_stacked
-stack pp_flat_ rej 3 3 -norm=mul
+stack flat_ rej 4 4 -norm=mul -out=stacked.fits
